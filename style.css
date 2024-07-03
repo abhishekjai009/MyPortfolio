@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Roboto+Slab:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.slidebar {
+    background-color: lightgray;
+    transition: transform 0.3s ease-in;
+    font-family: "Roboto Slab", serif;
+    height: 100vh;
+}
+
+.slidebar nav {
+    padding: 45px;
+}
+
+.slidebar nav li {
+    list-style: none;
+    font-size: 30px;
+    padding: 30px 0;
+}
+
+.slidebar nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.main {
+    /* background-color: yellow; */
+    width: 90vw;
+}
+
+.container {
+    display: flex;
+}
+
+.info {
+    margin: 147px auto;
+    background-color: lightblue;
+    height: 58vh;
+    width: 80vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devpic img {
+    height: 58vh;
+}
+
+.devinfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hello {
+    font-size: 65px;
+}
+
+.name {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.about {
+    font-size: 40px;
+
+}
+
+.moreabout {
+    font-size: 25px;
+    margin-top: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.btn {
+    margin-top: 33px;
+}
+
+.btn {
+    padding: 9px 14px;
+    border-radius: 22px;
+    border-color: yell;
+    border-width: 3px;
+    font-weight: bold;
+    font-size: 21px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: black;
+}
+
+.btn-sm {
+    font-size: 14px;
+    padding: 10px 19px;
+    margin: 12px 0;
+}
+
+.contactform h1 {
+    font-family: "Roboto Slab", serif;
+    text-align: center;
+    padding: 12px 0;
+}
+
+.contactform {
+    padding: 0 30px;
+    padding-top: 144px;
+}
+
+.contactform form div {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form div input {
+    width: 26vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+
+#emailHelp {
+    font-size: 12px;
+    color: red;
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+}
+
+#form-check {
+    flex-direction: row;
+}
+
+#form-check input {
+    width: 24px;
+    margin: 3px 0;
+}
+form{
+    margin: 31px 570px;
+    display: block;
+}
+
+.blogitem {
+    font-family: "Roboto Slab", serif;
+    margin: 20px;
+}
+
+.blogcontainer h1 {
+    margin: 23px;
+}
+
+.information h1 {
+    font-family: "Roboto Slab", serif;
+    color: darkred;
+    margin: 12px;
+}
+
+.information h2 {
+    font-family: "Roboto Slab", serif;
+    margin: 12px;
+    color: red;
+}
+
+.information p {
+    font-family: "Roboto Slab", serif;
+    font-size: x-large;
+    margin: 12px;
+    font-weight: bold;
+}
+
+.skillcontainer {
+    padding: 12px;
+}
+
+.skillitem {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-family: "Roboto Slab", serif;
+}
+
+.skill {
+    width: 265px;
+    height: 7px;
+    background-color: darkslategrey;
+}
+
+.hundred {
+    width: 240px;
+    background-color: green;
+    height: 13px;
+    border-radius: 5px;
+    margin: 7px;
+
+}
+
+.fifty {
+    width: 186px;
+    background-color: red;
+    height: 13px;
+    border-radius: 5px;
+    margin: 26px;
+
+}
+
+.t5 {
+    width: 81px;
+    background-color: darksalmon;
+    height: 13px;
+    border-radius: 5px;
+    margin: 7px;
+}
+
+.t6 {
+    width: 100px;
+    background-color: darkblue;
+    height: 13px;
+    border-radius: 5px;
+    margin: 26px;
+}
+
+.t7 {
+    width: 130px;
+    background-color: darkmagenta;
+    height: 13px;
+    border-radius: 5px;
+    margin: 26px;
+}
+
+.t8 {
+    width: 175px;
+    background-color: darkcyan;
+    height: 13px;
+    border-radius: 5px;
+    margin: 26px;
+}
+
+.hamburger {
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+
+.cut {
+    margin-left: 185px;
+    margin-top: 10px;
+}
+
+.ham {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+/* .slidebar{
+        transform: translate(-443px,0px);
+        position: absolute;
+    } */
+
+@media (max-width:1615px) {
+    * {
+        background-color: whitesmoke;
+    }
+
+    .slidebar {
+        background-color: grey;
+        color: grey;
+    }
+
+    .devpic {
+        display: none;
+    }
+
+    /* .slidebar{
+        transform: translate(-443px,0px);
+        position: absolute;
+    } */
+}
